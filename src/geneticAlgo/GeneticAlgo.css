@@ -1,0 +1,27 @@
+.goal-container {
+  padding-top: 25px;
+  text-align: center;
+}
+
+.goal-selector {
+  padding: 5px;
+  display: inline-block;
+}
+.goal-preview {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.gen-table {
+  padding-top: 25px;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(50, auto);
+  margin: 0 auto;
+}
+.gen-node {
+  border: 1px solid rgba(204, 204, 204, 0.836);
+  width: 25px;
+  height: 25px;
+}

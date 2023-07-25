@@ -1,0 +1,41 @@
+.goal-container {
+  padding-top: 25px;
+  text-align: center;
+}
+
+.goal-selector {
+  padding: 5px;
+  display: inline-block;
+}
+.goal-preview {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.gen-table {
+  padding-top: 25px;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(50, auto);
+  margin: 0 auto;
+}
+.gen-node {
+  border: 1px solid rgba(255, 255, 255, 0.658);
+  width: 25px;
+  height: 25px;
+  color: white;
+}
+
+.preview {
+  position: absolute;
+  top: 1000;
+  left: 100;
+  z-index: 10;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.897);
+}
+
+.nodeParent {
+  position: relative;
+}
