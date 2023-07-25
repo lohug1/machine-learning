@@ -4,6 +4,7 @@ import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import GeneticAlgo from './geneticAlgo/GeneticAlgo';
 import Tree from './tree/Tree';
 import ShortestPath from './shortestPath/ShortestPath';
+import './App.css';
 
 export default function App() {
   return (
