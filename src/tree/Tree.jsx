@@ -3,7 +3,6 @@ import { HexColorPicker } from 'react-colorful';
 import { Grid, Button, Slider, Typography, Tooltip } from '@mui/material';
 import Graph from 'react-graph-vis';
 import './Tree.css';
-import { v4 as uuidv4 } from 'uuid';
 
 let size = 1000;
 let mutationPr = 0.1;
